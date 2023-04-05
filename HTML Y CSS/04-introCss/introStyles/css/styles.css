@@ -1,0 +1,52 @@
+/*Estilo para Colore*/
+.colores {
+    color: orangered;
+}
+.colores-hexadecimal {
+    color: #91ff00;
+}
+.color-rgb {
+    color: rgb(100, 0, 200);
+}
+.color-rgba {
+    color: rgba(10, 10, 10, 0.85);
+}
+
+/*fondos*/
+.fondos {
+    /*background-color: cornflowerblue;*/
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbackground&psig=AOvVaw1ybG4XONtufe2q7t1Nhjk1&ust=1666901732496000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPjI0oDb_voCFQAAAAAdAAAAABAD);
+    background-position: left bottom;
+}
+.fondos-interno {
+    /*background-color: cornflowerblue;*/
+    background-image: url(immagen/fondo.png);
+    background-position: left bottom;
+}
+
+/*Tamaños*/
+.ancho {
+    background-color: #bce784;
+    width: 100px;
+}
+
+.alto {
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px 20;
+}
+/*textos*/
+/*@inport*/ /*fuentes de google*/
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 300;
+}
