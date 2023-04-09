@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+.contenedor {
+    border: 2px solid lightslategray;
+    border-radius: 10px;
+    margin: auto;
+    width: 90vw;
+}
+.header {
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    color: antiquewhite;
+    background-color: gray;
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-around;
+}
+.img-galeria {
+    border-radius: 15px;
+    margin: 5px;
+    width: 300px;
+}
+.img-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
