@@ -1,0 +1,31 @@
+.cont {
+    border: 3px solid blueviolet;
+    border-radius: 25px;
+    background-color: violet;
+    font-family: monospace;
+    font-size: 1rem;
+    text-align: center;
+    width: 600px;
+}
+
+button.boton {
+    border: 3px solid blueviolet;
+    border-radius: 25px 0px;
+    background-color: violet;
+    margin: 5px;
+    padding: 8px;
+    width: 150px;
+}
+
+button.boton::before {
+    content: "Pasa por encima";
+}
+
+button.boton:hover {
+    background-color: greenyellow;
+    width: 150px;
+}
+
+button.boton:hover::before {
+    content: "¡Hecho!";
+}
